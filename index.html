@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d54f6ec33d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="left">Vaibhav's Portfolio</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Vaibhav</span><br>Sinha from Jaunpur(UP)<br>I'm a <span>Data Scientist</span></h1>
+            <span id="element"></span>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="vaibhav.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quis molestiae obcaecati impedit
+                        natus ut, nihil alias beatae at ducimus blanditiis officia qui excepturi in doloremque facere,
+                        omnis
+                    pariatur architecto.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Works')">Works</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>HTML & CSS</li>
+                            <li><span>Frontend developer</span><br>HTML CSS & JavaScript</li>
+                            <li><span>Digital Marketting</span><br>Marketting</li>
+                            <li><span>Application Developer</span><br>C-language(begginer level)</li>
+                            <li><span>Sheetfillment</span><br>MS-excel</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>High School(2018-2020)</span><br>D.B.S. Inter College(U.P)</li>
+                            <li><span>Inter(2020-2022)</span><br>D.B.S. Inter College(U.P)</li>
+                            <li><span>B.tech(CSE)(2022-Curent)</span><br>Quantum University(roorkee-UK)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Works">
+                        <ul>
+                            <li><span>Web Development Internship(one month)</span><br>Lets Grow More</li>
+                            <li><span>Web Development Internship(one month)</span><br>InternDev</li>
+                            <li><span>Web Development Internship(one month)</span><br>Oasis Infobyte</li>
+                            <li><span>Web Development Internship(one month)</span><br>Code Alpha</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <h2>Calculator</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo labore recusandae quia libero
+                        itaque commodi, sequi repellat ipsum, cum impedit modi praesentium obcaecati reprehenderit.
+                        Cumque expedita ipsam officiis blanditiis aperiam.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Landling Page</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo labore recusandae quia libero
+                        itaque commodi, sequi repellat ipsum, cum impedit modi praesentium obcaecati reprehenderit.
+                        Cumque expedita ipsam officiis blanditiis aperiam.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>To-Do list</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo labore recusandae quia libero
+                        itaque commodi, sequi repellat ipsum, cum impedit modi praesentium obcaecati reprehenderit.
+                        Cumque expedita ipsam officiis blanditiis aperiam.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Number Guessing Game</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo labore recusandae quia libero
+                        itaque commodi, sequi repellat ipsum, cum impedit modi praesentium obcaecati reprehenderit.
+                        Cumque expedita ipsam officiis blanditiis aperiam.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="business-vector-illustration-people-involved-600w-1807767913.webp">
+                    <div class="layer">
+                        <h3>Web developing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nostrum earum veritatis,
+                            molestiae, labore, natus deserunt soluta deleniti impedit harum vero quam. Quaerat quae
+                            tempore maiores animi ab nam nulla?</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="business-vector-illustration-people-involved-600w-1807767913.webp">
+                    <div class="layer">
+                    <h3>Digital Marketting</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nostrum earum veritatis,
+                            molestiae, labore, natus deserunt soluta deleniti impedit harum vero quam. Quaerat quae
+                            tempore maiores animi ab nam nulla?</p>
+                            </div>
+                </div>
+                <div class="work">
+                    <img src="business-vector-illustration-people-involved-600w-1807767913.webp">
+                 <div class="layer">
+                    <h3>Networking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nostrum earum veritatis,
+                            molestiae, labore, natus deserunt soluta deleniti impedit harum vero quam. Quaerat quae
+                            tempore maiores animi ab nam nulla?</p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+<div class="row"></div>
+<div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+    <p><i class="fa-duotone fa-at"></i>sinhamann422@gmail.com</p>
+    <p><i class="fa-solid fa-phone fa-2xs"></i>9555525843</p>
+    <div class="social-icon">
+        <a href="https://instagram.com/the_vaibhavsinha__18?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/mann.2004s?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhav-sinha-568830250"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="" class="btn">Download Resume</a>
+</div>
+<div class="contact-right">
+    <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="Message" rows="6" columns="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+    </form>
+    <span id="msg"></span>
+</div>
+</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+    strings: ['<i><b>Web developer</b></i>', 'Digital marketting'],
+    typeSpeed: 50,
+});
+    </script>
+</body>
+
+</html>
